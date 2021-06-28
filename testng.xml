@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ListenerTest"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/galina.baeva/IdeaProjects/TestNG">
+        <parameter name="parm" value="paramparam"></parameter>
+        <classes>
+            <class name="FirstTest"></class>
+            <class name="SecondTest"></class>
+            <class name="SoftAssertTest"></class>
+        </classes>
+    </test>
+</suite>
